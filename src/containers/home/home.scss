@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+*::after ::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  margin: 0.5em 6em;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+.radioStyle {
+  display: 'block';
+  height: '30px';
+  line-height: '30px';
+}
+
+.column1 {
+  flex: 2;
+  padding: 1em;
+}
+
+.column2 {
+  flex: 1;
+  padding: 1em;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+}
+
+.insideWrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.outsideWrapper {
+  width: 100%;
+  height: 600px;
+  border: 1px solid #ddd;
+}
+
+.outsideWrapperTile {
+  width: 100%;
+  height: 200px;
+  margin: 10px;
+  border: 1px solid #ddd;
+}
+
+.insideWrapperTile {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.canvas {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.coveredImage {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.input {
+  flex: 1;
+  padding: 0.5em;
+  font-family: 'Open Sans', sans-serif;
+  margin: 1em 0em;
+  border: 1px solid #ddd;
+}
+
+.textarea {
+  flex: 1;
+  padding: 0.5em;
+  font-family: 'Open Sans', sans-serif;
+  margin: 1em 0em;
+  border: 1px solid #ddd;
+  resize: none;
+}
+
+.button {
+  margin: 1em 0em;
+  padding: 0.5em;
+  width: 12em;
+  background: #018786;
+  border: 2px solid #018786;
+  border-radius: 0.5em;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.saved {
+  border: 1px solid #ddd;
+  height: 600px;
+  width: 100%;
+  padding: 1em;
+  justify-content: center;
+  overflow: scroll;
+}
+
+.imageTileContainer {
+  flex: 1;
+}
+
+.imageTile {
+  flex: 1;
+  flex-wrap: wrap;
+  height: 130px;
+  object-fit: cover;
+}
+
+.title {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+.savedCanvas {
+  flex: 1;
+  flex-wrap: wrap;
+  height: 112px;
+  background-color: #333;
+  margin-right: 2px;
+}
+
+.position {
+  border: 1px solid #ddd;
+  height: 100px;
+  margin: 1em 0em;
+  padding: 0.5em;
+}
